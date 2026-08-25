@@ -1,0 +1,7 @@
+{
+  "name": "streaming-legal-intake-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node --experimental-strip-types src/legal_stream.ts", "test": "node --experimental-strip-types test/deadline_decision.test.ts"},
+  "dependencies": {"openai": "^4.80.0"}
+}
